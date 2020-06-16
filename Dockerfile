@@ -11,3 +11,6 @@ RUN echo "Europe/Berlin" | tee /etc/timezone
 #add hello world file
 RUN echo "Hello World" | tee 1950.time
 CMD /bin/bash
+
+#testbranch
+RUN echo "Hello World" | tee testbranch.time
